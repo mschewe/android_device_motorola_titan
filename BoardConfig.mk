@@ -39,5 +39,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5930598400
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/motorola/titan/releasetools
+
 # inherit from the proprietary version
 -include vendor/motorola/titan/BoardConfigVendor.mk
